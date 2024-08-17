@@ -1,0 +1,165 @@
+.wholetemplate{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family) , sans-serif;
+    font-size: var(--font-size);
+    font-weight:var(--font-weight) ;
+    font-style: var(--font-style);
+}
+.maincontainer-draft{
+    margin:10px;
+    width:1000px;
+    display: flex;
+    background: white;
+    border: 2px solid gray;
+}
+.sidebar-draft{
+    width:1300px;
+    background-color:var(--theme-color);
+    color:var(--heading-color);
+    padding-left: 20px;
+}
+
+.sidebar-draft .profile-pic-draft{
+    margin-top: 20px;
+    text-align: center;
+}
+.sidebar-draft .profile-pic-draft img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.sidebar-draft h2{
+    margin: 10px 0px ;
+}
+
+.sidebar-draft p{
+    margin: 15px 0px ;
+    color:var(--font-color);
+    font-size: 12px;
+}
+.sidebar-draft p span{
+    font-size:14px;
+    color: white;
+}
+.expertise-draft li{
+    list-style: disc;
+    font-size: 13px;
+    margin: 15px 0px;
+    color: var(--font-color);
+}
+.languages-draft li{
+    list-style: none;
+    padding: 10px 0px;
+    font-size: 13px;
+    color: var(--font-color);
+}
+.draft-main-page{
+    padding-left: 20px;
+    overflow: hidden;
+}
+.draft-main-page .draft-topbar h1{
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: var(--theme-color);
+}
+.draft-main-page .draft-topbar h1 span{
+    color: var(--theme-color);
+    font-weight: 800;
+}
+.draft-main-page h3{
+    color: var(--theme-color);
+    text-transform: capitalize;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    margin: 10px 0px;
+}
+.draft-main-page .draft-topbar p{
+    margin: 10px 0px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: var(--infont-color);
+    line-height: 1.2em;
+    font-weight:100;
+    word-spacing: 0.1em;
+}
+.draft-exphead{
+    margin:25px 0px;
+}
+.draft-exphead h1{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--theme-color);
+}
+.draft-main-page .draft-innercontent{
+    margin: 20px;
+    color: var(--infont-color);
+}
+.draft-main-page .draft-innercontent h4{
+    font-weight: 600;
+    margin: 5px 0px;
+    color: var(--theme-color);
+}
+.draft-main-page .draft-innercontent h6{
+    font-size: 14px;
+    font-weight: 100;
+}
+.draft-main-page .draft-innercontent p{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.draft-reference{
+    display: flex;
+    margin: 10px 1px; 
+    flex-wrap: wrap;
+}
+.draft-reference h4{
+    margin: 10px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--theme-color);
+}
+.draft-reference .draft-element{
+    margin-right:2vw;
+}
+.draft-reference h6{
+    font-size: 18px;
+    margin: 10px 0px;
+    font-weight: 500;
+    color: var(--infont-color);
+}
+.draft-reference .draft-element p span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 7px;
+    color: var(--theme-color);
+}
+.draft-reference .draft-element p{
+    font-size: 15px;
+    color: var(--infont-color);
+}
+.draft-refhead{
+    color: var(--theme-color);
+    margin:10px 0px ;
+    font-weight: 500;
+}
+.draft-profiledata h1{
+    color: var(--theme-color);
+    font-weight: 500;
+    margin: 10px 0px;
+}
+.draft-profiles {
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.draft-profiles li{
+    list-style: none;
+    color: var(--infont-color);
+    padding: 5px 0px ;
+}

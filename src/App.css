@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.maintopbar{
+    display: flex;
+    justify-content: space-between;
+    background: #1e1c30;
+    color: white;
+    border-bottom: 1px solid rgb(77, 70, 70);
+    width: 100vw;
+    font-size: 14px;
+    padding: 5px 20px 0px 20px;
+}
+.maintopbar h2 svg{
+    fill: white;
+    width: 20px;
+    margin: 0px 15px ;
+    cursor: pointer;
+}
+.maintopbar h2 span{
+    color: chocolate;
+}
+
+/* --------------------------------------- */
+.maincontainer{
+    display: flex;
+    width: 100vw;
+    height: 94.5vh;
+    overflow: hidden;
+}
+.maincontainer .sidebar{
+    background-color: #1e1c30;
+    text-align: center;
+    color: grey;
+    height: 98vh;
+}
+.maincontainer .sidebar li{
+    margin: 30px 5px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+.maincontainer .sidebar li span{
+    margin: 3px 10px;
+    font-size: 15px;
+}
+.maincontainer .sidebar li.active{
+    color: white;
+}
+.maincontainer .sidebar li svg{
+    width: 15px;
+    margin: 3px 10px;
+    fill: grey;
+}
+.maincontainer .sidebar li.active svg{
+    fill: white;
+}
+.maincontainer .sidebar .closetooglebutton svg{
+    width: 10px;
+}
+.maincontainer .sidebar .unexpand li span{
+    display: none;
+}
+.maincontainer .sidebar .unexpand{
+    width: 9vh;
+    overflow: hidden;
+    transition: width 0.5s ease-in-out; 
+}
+.maincontainer .sidebar .expand li span{
+    display: flex;
+}
+.maincontainer .sidebar .expand{
+    transition:width 0.5s ease;
+    width: 19vh;
+}
+
+/* ---------------------------------------------- */
+
+.maincontainer .secondbar{
+    width:38vw;
+    height: 99vh;
+    padding: 5px;
+    padding-bottom: 50px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    background-color: #272533;
+}
+.maincontainer .secondbar h1{
+    font-size: 20px;
+    color: rgb(180, 180, 180);
+    margin: 10px 10px 0px 10px;
+}
+.maincontainer .secondbar h5{
+    color: rgb(180, 180, 180);
+    margin: 0px 10px 10px 10px;
+}
+.maincontainer .secondbar .templates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.maincontainer .secondbar .templates img{
+    width: 17vw;
+    padding:10px 5px;
+}
+
+/* ---------------------------------- */
+
+.maincontainer .draft{
+    width:58vw;
+    height:96vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    scrollbar-width:none;
+}
+
+.maincontainer .draft .head{
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+.maincontainer .draft .maincontainer-draft{
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+/* ---------------------------------- */
+.maincontainer .secondbar .user {
+    position: relative;
+    padding: 10px;
+    width: 36vw;
+}
+.maincontainer .secondbar .user .head{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 10px 0px 10px;
+}
+
+.maincontainer .secondbar .user h2 svg{
+    width: 15px;
+    fill: gray;
+    margin-left: 2vw;
+}
+.maincontainer .secondbar .user h2{
+    color: grey;
+    width: fit-content;
+    font-size: 18px;
+    border-bottom:2px grey solid ;
+    margin: 15px 0px;
+}
+.maincontainer .secondbar .user .sechead{
+    font-size: 16px;
+    font-weight: 500;
+}
+.maincontainer .secondbar .user li{
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+}
+.maincontainer .secondbar .user input:hover{
+    box-shadow:  0 2px 3px rgba(192, 218, 243, 0.8);
+}
+.maincontainer .secondbar .user input{
+    padding: 5px;
+    margin: 2px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 80vw;
+    outline: none;
+    font-weight: 600;
+    color: #3d3955;
+}
+.maincontainer .secondbar .user li:focus-within svg{
+    fill: white;
+}
+.maincontainer .secondbar .user li svg{
+    width:50px;
+    padding: 3px;
+    fill: grey;
+    cursor: pointer;
+}
+.maincontainer .secondbar .user li .usericon{
+    width: 28px;
+} 
+.maincontainer .secondbar .user .getname input{
+    width:14vw;
+}
+.maincontainer .secondbar .user .getname{
+    display: flex;
+    width:35vw;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.maincontainer .secondbar .user .contactinfo .slidebar li{
+    width: 50vw;
+    }
+.maincontainer .secondbar .user .contactinfo .slidebar {
+    background-color: #3d3955;
+    color: white;
+    font-weight: 530;
+    font: 16px;
+    display: flex;
+    justify-content: space-around;
+    border-radius:20px;
+    margin: 0% 10%;
+    width: 80%;
+}
+.maincontainer .secondbar .user .contactinfo .slidebar .active{
+    background-color: #2b235e;
+    margin: 5px;
+    padding: 3px 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+.maincontainer .secondbar .user .contactinfo .maincontact,
+.maincontainer .secondbar .user .contactinfo .social{
+    display: none;
+}
+.maincontainer .secondbar .user .secondarydata li{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.maincontainer .secondbar .user .secondarydata input{
+    border: none;
+    margin: 10px 0px;
+    margin-left: 15px;
+    color:white;
+    width: 32vw;
+    background-color: #272533;
+    border-bottom:2px solid grey ;
+    border-radius: 2px;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.maincontainer .secondbar .user .secondarydata textarea:hover{
+    box-shadow: 0 2px 3px rgba(192, 218, 243, 0.8);
+}
+.maincontainer .secondbar .user .secondarydata textarea{
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid grey;
+    color: white;
+    font-size: 16px;
+    width: 32vw;
+    border-radius:2px ;
+    margin: 10px 0px ;
+    margin-left: 15px;
+}
+
+.maincontainer .secondbar .user .addbutton:hover{
+    box-shadow: 0 0 7px 3px rgba(192, 218, 243, 0.8);
+}
+.maincontainer .secondbar .user .addbutton{
+    width: 15px;
+    height: 15px;
+    background-color: rgb(87, 106, 129);
+    border-radius: 50%;
+    border: none;
+    padding: 2px;
+    fill: white;
+    margin-left: 90%;
+}
+
+.maincontainer .secondbar .user .secondarydata .singlelinedate input{
+    width: 4vw;
+    margin: 0;
+    padding: 0;
+}
+.maincontainer .secondbar .user .secondarydata .singlelinedate span{
+    margin-top: 20px;
+    font-weight: bolder;
+    padding: 0px 10px;
+}
+.maincontainer .secondbar .user .secondarydata .singlelinedate{
+    display: flex;
+    color: grey;
+    flex-wrap: wrap;
+    width: 35vw;
+    margin: 10px 15px;
+}
+
+/* ------------------------------------------------------------ */
+.maincontainer .secondbar .colourbar .col{
+    margin: auto;
+    width: 90%;
+    overflow: hidden;
+
+}
+.maincontainer .secondbar .colourbar .menu li{
+    padding:5px 10px;
+    cursor: pointer;
+}
+.maincontainer .secondbar .colourbar .menu li.active{
+    background-color: #2b235e;
+    border-radius: 20px;
+}
+.maincontainer .secondbar .colourbar .menu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    margin: 1vw 0vw;
+    background-color: #7e7e81;
+    border-radius: 20px;
+    padding:2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.maincontainer .secondbar .colourbar .col .box{
+    margin: 0% 10%;
+    width: 100%;
+
+}
+.maincontainer .secondbar .colourbar .col{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.maincontainer .secondbar .colourbar label{
+    color: gray;
+    font-size: 16px;
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+.maincontainer .secondbar .colourbar .colorview span{
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: 600;
+    color: brown;
+    letter-spacing: 0.1em;
+    border: none;
+    border-radius: 5px;
+}
+.maincontainer .secondbar .colourbar .colorview{
+    width: 90%;
+    height: 50px;
+    border: 2px solid white;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+    justify-content: center;
+}
+
+/* ===================================================================== */
+.maincontainer .secondbar .fontbar{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+.maincontainer .secondbar .fontbar select{
+    width: 80%;
+    padding: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+.maincontainer .secondbar .fontbar input{
+    display: block;
+    flex-direction: column;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.maincontainer .secondbar .fontbar .sample-text{
+    width: 90%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.maincontainer .secondbar .fontbar label{
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.maincontainer .secondbar .fontbar .font-checkbox{
+    width: 20px;
+    height: 20px;
+    accent-color: #112a6e;
+    cursor: pointer;
+}
+
+.maincontainer .secondbar .fontbar .check{
+    display: flex;
+}
+
+.maincontainer .secondbar .fontbar .apply-button:active{
+    background-color: red;
+}
+
+.maincontainer .secondbar .fontbar .apply-button{
+    font-size: 16px;
+    font-weight: 600;
+    background-color: rgb(39, 39, 105);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
