@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 
 const FontBar = ({ onApplyStyles }) => {
     const [fonts, setFonts] = useState([]);

@@ -1,0 +1,112 @@
+/* Style6.css - Inspired by Julie Hamilton Layout */
+
+.template6-wrapper {
+  display: flex;
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  color: var(--font-color);
+  background-color: #fff;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+.template6-sidebar {
+  width: 30%;
+  background-color: var(--theme-color);
+  padding: 30px 20px;
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.photo-block img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.side-section h2 {
+  color: #fff;
+  font-size: 1.1em;
+  margin-bottom: 8px;
+  border-bottom: 2px solid var(--theme-color);
+}
+
+.side-section p,
+.side-section ul {
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.side-section ul {
+  padding-left: 20px;
+  list-style: square;
+}
+
+.template6-content {
+  width: 70%;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.header-block h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+  color: var(--heading-color);
+}
+
+.header-block h1 span {
+  font-weight: bold;
+}
+
+.header-block h3 {
+  margin-top: 0;
+  font-weight: normal;
+  color: var(--infont-color);
+}
+
+.section-block {
+  margin-top: 30px;
+}
+
+.section-block h2 {
+  font-size: 1.2em;
+  color: var(--heading-color);
+  border-bottom: 2px solid var(--theme-color);
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.experience-entry {
+  margin-bottom: 20px;
+}
+
+.experience-entry h4 {
+  margin: 0;
+  font-size: 1em;
+  font-weight: bold;
+  color: var(--infont-color);
+}
+
+.experience-entry p {
+  margin: 2px 0 8px 0;
+  font-size: 0.9em;
+  /* color:var(--infont-color); */
+}
+
+.experience-entry ul li {
+    color: var(--font-color);
+}
+.experience-entry ul {
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 0.9em;
+  color: var(--font-color);
+}

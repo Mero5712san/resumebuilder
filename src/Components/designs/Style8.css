@@ -1,0 +1,68 @@
+/* Style8.css - Bold IT Fresher Resume Layout */
+
+.template8-wrapper {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  color: var(--font-color);
+  background-color: #ffffff;
+  padding: 40px;
+  max-width: 900px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.template8-header {
+  text-align: center;
+  border-bottom: 4px solid var(--theme-color);
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+}
+
+.template8-header h1 {
+  font-size: 2em;
+  color: var(--heading-color);
+  margin: 0;
+}
+
+.template8-header p {
+  font-size: 0.95em;
+  color: #555;
+}
+
+.template8-contact {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.template8-section {
+  margin-bottom: 25px;
+}
+
+.template8-section h2 {
+  font-size: 1.2em;
+  color: var(--heading-color);
+  background-color: var(--theme-color);
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.template8-section p {
+  margin: 4px 0;
+  font-size: 0.95em;
+}
+
+.template8-section ul {
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 0.95em;
+  margin-top: 8px;
+}
+
+.template8-section ul li {
+  margin-bottom: 6px;
+}

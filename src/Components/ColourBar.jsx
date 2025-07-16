@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { SketchPicker } from 'react-color';
 
 const ColourBar = ({setcolour}) => {
     let [currentthemecolor, setcurrentthemecolor] = useState({ r: 30, g: 28, b: 51, a: 1 });
     let [currentfontcolor, setcurrentfontcolor] = useState({ r: 128, g: 128, b: 131, a: 1 });
-    let [currentheadingcolor,setcurrentheadingcolour] = useState({ r: 255, g: 255, b: 255, a: 1 })
+    let [currentheadingcolor,setcurrentheadingcolour] = useState({ r: 0, g: 0, b: 0, a: 1 })
     let [currentinfontcolor,setcurrentinfontcolor] = useState({ r: 138, g: 138, b: 141, a: 1 })
 
     let [active ,setactive ] = useState('theme')

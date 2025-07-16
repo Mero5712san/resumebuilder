@@ -1,0 +1,85 @@
+/* Style9.css - Inspired by Kent Hays Layout */
+
+.template9-wrapper {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  color: var(--font-color);
+  background-color: #fff;
+  padding: 40px;
+  max-width: 950px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.template9-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 4px solid var(--theme-color);
+  padding-bottom: 12px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.template9-name h1 {
+  margin: 0;
+  font-size: 2em;
+  color: var(--heading-color);
+}
+
+.template9-name h3 {
+  margin: 5px 0 0;
+  font-weight: normal;
+  color: var(--infont-color);
+  font-style: italic;
+}
+
+.template9-contacts p {
+  margin: 2px 0;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.template9-section {
+  margin-bottom: 30px;
+}
+
+.template9-section h2 {
+  font-size: 1.3em;
+  color: var(--heading-color);
+  border-bottom: 2px solid var(--theme-color);
+  padding-bottom: 6px;
+  margin-bottom: 10px;
+}
+
+.experience-entry {
+  margin-bottom: 20px;
+}
+
+.experience-entry h4 {
+  margin: 0;
+  font-size: 1.05em;
+  color: var(--infont-color);
+}
+
+.experience-entry p {
+  font-size: 0.9em;
+  margin: 4px 0 8px;
+  color: #444;
+}
+
+.experience-entry ul {
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 0.9em;
+  color: #333;
+}
+
+.template9-section ul {
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 0.95em;
+  color: #333;
+}
